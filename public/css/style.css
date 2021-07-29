@@ -26,3 +26,7 @@ header, .project:not(:last-child) {
 .card {
   border:1px solid #ccc;
 }
+
+.rounded {
+  border-radius: 1rem;
+}

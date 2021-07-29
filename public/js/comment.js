@@ -14,7 +14,7 @@ const addComment = async (event) => {
         });
 
         if (response.ok) {
-            // document.location.reload();
+            document.location.reload();
             console.log("working")
         } else {
             alert('unable to post comment');

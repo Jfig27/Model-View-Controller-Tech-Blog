@@ -4,13 +4,13 @@ const updateProject = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
 
-    const title = document.querySelector('#project-name').value.trim();
-    const contents = document.querySelector('#project-desc').value.trim();
+    const name = document.querySelector('#project-name').value.trim();
+    const description = document.querySelector('#project-desc').value.trim();
 
-    if (title && contents) {
+    if (name && description) {
       const response = await fetch(`/api/projects/${id}`, {
         method: 'PUT',
-        body: JSON.stringify({ title, contents }),
+        body: JSON.stringify({ name, description }),
         headers: {
           'Content-Type': 'application/json',
         },
