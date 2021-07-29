@@ -13,7 +13,7 @@ This is a tech blog where users can make posts and comment on other posts to dis
 
 
 ## Usage
-To run locally..
+To run locally... <br />
 `npm i ` <br />
 `npm run seed` (optional)<br />
 `npm run start` <br />
@@ -21,7 +21,7 @@ To run locally..
 
 ## Deployed Application
 
-[link]
+https://josh-tech-blog.herokuapp.com/
 
 
 ## Screenshot
